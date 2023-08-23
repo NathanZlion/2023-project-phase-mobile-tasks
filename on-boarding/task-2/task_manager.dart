@@ -1,6 +1,6 @@
 import 'task.dart';
 
-class TasManager {
+class TaskManager {
   List<Task_> tasks = [];
 
   void AddTask(Task_ task) {

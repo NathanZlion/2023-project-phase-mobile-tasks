@@ -6,7 +6,12 @@ class Task_ {
   DateTime dueDate;
   TaskStatus status;
 
-  Task_(this.title, this.description, this.dueDate, this.status);
+  Task_({
+    required this.title,
+    required this.description,
+    required this.dueDate,
+    required this.status,
+  });
 
   @override
   String toString() {
